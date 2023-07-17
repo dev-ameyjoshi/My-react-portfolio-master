@@ -4,11 +4,12 @@ import ProjectCard from "./ProjectCards";
 
 
 import captcha_eval
-    from "../../Assets/Projects/captcha-eval-min_1.webp";
+    from "../../Assets/Projects/registration.jpg";
 import anticheat
-    from "../../Assets/Projects/anticheat-test-min_1.webp";
+    from "../../Assets/Projects/weather_app.jpg";
 import warehouse_project
-    from "../../Assets/Projects/logo-warehouse-min_1.webp";
+    from "../../Assets/Projects/download_womensafety application.png";
+import textUtilityc from "../../Assets/Projects/Text_utility.jpg";
 
 import treedots from "../../Assets/Projects/tree-dots-min_1.webp";
 
@@ -74,7 +75,7 @@ Enhancements have been implemented to validate and enhance the integrity of the 
                     <Col md={4} className="project-card">
 
                         <ProjectCard
-                            imgPath={anticheat}
+                            imgPath={textUtilityc}
 
                             showBtn={true}
                             title="Text Utils"

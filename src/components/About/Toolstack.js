@@ -2,19 +2,13 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {
     SiVisualstudiocode,
-    SiJupyter,
-    SiHeroku,
-    SiAnaconda,
     SiAmazonaws,
-    SiApache,
     SiDocker,
-    SiEclipseide,
     SiIntellijidea,
-    SiWebstorm,
-    SiAdobeaftereffects, SiAdobelightroom, SiWordpress, SiAndroidstudio, SiStackoverflow,
+ SiStackoverflow,   
 } from "react-icons/si";
 
-import {DiPhotoshop} from "react-icons/di";
+
 
 function Toolstack() {
     return (
@@ -22,6 +16,7 @@ function Toolstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <SiVisualstudiocode/>
             </Col>
+            
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiJupyter/>
             </Col>

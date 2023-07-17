@@ -4,10 +4,15 @@ import {
     DiJavascript1,
     DiReact,
     DiNodejs,
-    DiPython,
     DiGit, DiJava, DiCss3,
+    DiMongodb,
+    DiBootstrap,
 } from "react-icons/di";
-import {SiC, SiCsharp, SiPytorch, SiTensorflow} from "react-icons/si";
+
+
+
+import {AiFillHtml5} from "react-icons/ai";
+import {SiExpress,SiPostman,SiTypescript,SiRedux,SiSequelize,SiFigma} from "react-icons/si";
 
 function Techstack() {
     return (
@@ -18,19 +23,43 @@ function Techstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiJava/>
             </Col>
-            {/* <Col xs={4} md={2} className="tech-icons">
-                <DiPython/>
-            </Col> */}
-
-            {/* <Col xs={4} md={2} className="tech-icons">
-                <SiC/>
-            </Col> */}
+            <Col xs={4} md={2} className="tech-icons">
+                <DiJavascript1/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiTypescript/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiFigma/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiReact/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiBootstrap/>
+            </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiCss3/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1/>
+                <AiFillHtml5/>
             </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiRedux/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiGit/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiMongodb/>
+            </Col>
+
+            {/* <Col xs={4} md={2} className="tech-icons">
+                <DiPython/>
+            </Col> */}
+            {/* <Col xs={4} md={2} className="tech-icons">
+                <SiC/>
+            </Col> */}
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiTensorflow/>
             </Col> */}
@@ -42,11 +71,20 @@ function Techstack() {
                 <DiNodejs/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact/>
+                <SiExpress/>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiGit/>
+                <SiPostman/>
             </Col>
+            
+            
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSequelize/>
+            </Col>
+            
+            
+            
 
         </Row>
     );

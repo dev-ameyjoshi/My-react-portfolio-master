@@ -1,12 +1,12 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {
-    SiDebian,
+
     SiLinux,
 } from "react-icons/si";
 import {CgWindows} from "react-icons/cg";
-import {GrUbuntu, GrArchlinux} from "react-icons/gr";
-import {FaFreebsd, FaFedora} from "react-icons/fa";
+import {GrUbuntu} from "react-icons/gr";
+
 
 
 function OperatingSys() {

@@ -6,7 +6,7 @@ import myImg4 from "../../Assets/profilenew4.jpg"
 import {
     AiFillGithub,
     AiOutlineTwitter,
-    AiFillInstagram,
+  
 } from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 

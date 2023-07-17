@@ -1,7 +1,7 @@
 import React, {lazy, Suspense} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 
-import Github from "./Github";
+
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -54,7 +54,7 @@ function About() {
                     <strong className="purple">Operating Systems</strong> I am familiar with
                 </h1>
                 <OperatingSys/>
-                <Github/>
+                {/* <Github/> */}
             </Container>
         </Container>
     );
