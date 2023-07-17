@@ -11,10 +11,9 @@ function AboutCard() {
                         Hello World!, I am <span className="purple">Amey Joshi </span>
                         from <a href={"https://goo.gl/maps/pjcVMRXYCcQoqhSd9"} target="_blank" rel={"noreferrer"}
                                 className={"a-about"}>Pune, India.</a>
-                        <br/>I am an engineering student at<a href={"https://www.unisa.it/"}
+                        <br/>I am an undergraduate student at<a href={"https://www.unisa.it/"}
                                                                  target="_blank"
-                                                                 rel={"noreferrer"} className={"a-about"}> Vishwakarma
-                        Univerisity </a>who is currently working as a Full-Stack web developer. I have a strong passion for coding and problem solving, and I actively collaborate with my peers to make necessary modifications and advancements. I am seeking a development-driven environment where individuals are highly curious about the latest technologies.
+                                                                 rel={"noreferrer"} className={"a-about"}> Vishwakarma Institute Of Technology </a>who is currently working as a Full-Stack web developer. I have a strong passion for coding and problem solving, and I actively collaborate with my peers to make necessary modifications and advancements. I am seeking a development-driven environment where individuals are highly curious about the latest technologies.
                         <br/>
                         <br/>
                         Apart from coding, here are some activities that I like doing:
